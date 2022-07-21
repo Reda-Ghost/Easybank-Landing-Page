@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Public Sans', sans-serif ;
+  color: $darkBlue;
+}
+
+::selection {
+  background-color: $brightCyan;
+  color: $white;
+}
+
+// buttons
+.btn-request {
+  width: max-content;
+  margin: auto;
+  padding: 13px 35px;
+  background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  display: block;
+}
