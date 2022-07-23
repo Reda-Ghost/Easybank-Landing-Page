@@ -5,6 +5,7 @@
 body {
   font-family: 'Public Sans', sans-serif ;
   color: $darkBlue;
+  overflow-x: hidden;
 }
 
 ::selection {
@@ -24,4 +25,15 @@ body {
   border: none;
   outline: none;
   display: block;
+}
+
+.text-center-sm {
+  @media #{$maxMedium} {
+    text-align: center !important;
+  }
+}
+.text-center-xs {
+  @media #{$maxSmall} {
+    text-align: center !important;
+  }
 }

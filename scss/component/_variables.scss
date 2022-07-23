@@ -8,3 +8,13 @@ $grayishBlue: hsl(233, 8%, 62%);
 $lightGrayishBlue: hsl(220, 16%, 96%);
 $veryLightGray: hsl(0, 0%, 98%);
 $white: hsl(0, 0%, 100%);
+
+
+// Media Queries
+$extraSmall: '(max-width:768px)';
+$minSmall: '(min-width:768px)';
+$minMedium: '(min-width:992px)';
+$minLarge: '(min-width:1200px)';
+$maxSmall: '(max-width:767px)';
+$maxMedium: '(max-width:991px)';
+$maxLarge: '(max-width:1199px)';
